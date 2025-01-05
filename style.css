@@ -19,7 +19,7 @@
     height: 80vh;
     width: 75%;
     padding: 0 20px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(189, 191, 197, 0);
     /* z-index: 10; */
     border: 2px solid rgba(72, 95, 145, 0.607);
     border-radius: 20px;
@@ -31,5 +31,10 @@
 .container::after{
     content: '';
     position: absolute;
+    height: 300px;
+    width: 300px;
+    background: #4f6e980e;
+    transform: translate(490px,150px);
+    border-radius: 50%;
 }
  
