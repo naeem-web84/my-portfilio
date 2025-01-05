@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url( img/istockphoto-185007737-1024x1024.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box{
+    height: 80vh;
+    width: 75%;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* z-index: 10; */
+    border: 2px solid rgba(72, 95, 145, 0.607);
+    border-radius: 20px;
+    display: flex;
+    backdrop-filter: blur(25px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.1);
+}
+
+.container::after{
+    content: '';
+    position: absolute;
+}
+ 
