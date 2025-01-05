@@ -9,7 +9,7 @@
     height: 100vh;
     width: 100%;
     position: relative;
-    background: url( img/istockphoto-185007737-1024x1024.jpg);
+    background: url(img/abstract.avif) ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,6 +47,37 @@
     justify-content: space-between;
     margin: 15px 0;
     padding: 20px;
+}
+
+.container .box nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+.container .box nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgba(40, 128, 175, 0.943);
+}
+
+.container .box nav ul li a:hover{
+    color: rgba(12, 162, 243, 0.943);
+    transition: 0.3s;
+}
+
+nav .logo{
+    font-size: 35px;
+    color: rgba(12, 162, 243, 0.943);
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.container .box .contains{
+    position: relative;
+    display: flex;
 }
 
  
