@@ -78,6 +78,59 @@ nav .logo{
 .container .box .contains{
     position: relative;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 8%;
+    padding-left: 80;
 }
 
+.container .box .contains .section-1{
+position: relative;
+width: 40%;
+}
+
+.contains .section-1 h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(4, 63, 157);
+}
+
+.contains .section-1 h3{
+    font-size: 24px;
+    color: #6f34fe;
+   margin-bottom: 10px;
+}
+
+.contains .section-1 p{
+    font-size: 18px;
+    color: #505052;
+    margin-bottom: 50px;
+}
  
+.contains .section-1 .btn{
+    padding: 15px 20px;
+    background-color: #6f34fe;
+    border: 2 px solid #6f34fe;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contains .section-1 .btn:hover{
+    background-color: white;
+    color: #6f34fe;
+}
+
+.contains .section-2{
+    width: 40%;
+    margin-right: 40px;
+}
+
+.contains .section-2 img{
+width: 100%;
+border: 2px solid rgba(50, 91, 180, 0.482);
+border-radius: 8px;
+}
